@@ -60,14 +60,14 @@ body{
 .card-storage {
     color: #fff;
     background-color: #1e2c69;
-    margin-top: 5%;
     width: 82%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0 1rem 4rem 1rem;
+    position: relative;
 }
 
 .description {
@@ -79,7 +79,7 @@ body{
 }
 
 .description-2 {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,7 +93,7 @@ body{
 
 .progress-bar {
     background-color: #151d4b;
-    width: 100%;
+    width: 90%;
     padding: 3px;
     border-radius: 1rem;
     margin: 1rem 0;
@@ -116,4 +116,29 @@ body{
     background-color: #fff;
     border-radius: 1rem;
  
+}
+
+.floating-msg-container {
+    position: absolute;
+    margin-top: 180px;
+
+}
+
+.msg {
+    background-color: #fff;
+    padding: 1.2rem 2.6rem;
+    border-radius: 10px;
+
+    
+}
+
+.msg__1 {
+    font-size: 3rem;
+    color: #0d142e;
+}
+
+span {
+    font-size: 1.2rem;
+    color: #85848a;
+    font-weight: 700;
 }
