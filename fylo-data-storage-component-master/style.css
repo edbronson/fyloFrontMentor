@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #0c122c;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../fylo-data-storage-component-master/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 1.6rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.document , .folder , .upload {
+    background-color: #0c112e;
+    padding: 7%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 20px 0 0;
+}
+
+
+.card-logo {
+    background-color: #1e2c69;
+    width: 66%;
+    border-radius: 1rem;
+    padding: 4rem;
+    border-top-right-radius: 10rem;
+}
+
+.card-storage {
+    background-color: #1e2c69;
+    width: 66%;
+    border-radius: 1rem;
+    padding: 4rem;
+}
