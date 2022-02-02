@@ -38,7 +38,7 @@ body{
 
 .document , .folder , .upload {
     background-color: #0c112e;
-    padding: 7%;
+    padding: 9%;
     height: 20px;
     width: 20px;
     display: flex;
@@ -58,8 +58,56 @@ body{
 }
 
 .card-storage {
+    color: #fff;
     background-color: #1e2c69;
-    width: 66%;
+    margin-top: 5%;
+    width: 82%;
     border-radius: 1rem;
-    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.description {
+    margin-top: 10%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.description-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.progress-bar {
+    background-color: #151d4b;
+    width: 90%;
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.progress-bar , .progressbar-color {
+    border-radius: 20px;
+    width: 81.5%;
+    background-image: linear-gradient(hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+}
+
+.progress-bar , .progressbar-color , .ball {
+    height: 10px;
+    background-color: #fff;
+    width: 4%;
+    border-radius: 10px;
 }
